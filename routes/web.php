@@ -14,17 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $title = "Hello World";
+    return view('home', compact('title'));
 });
 
 Route::get('/about', function () {
-    return view('about');
+
+    $title2 = "About Us";
+    return view('about', compact('title2'));
 });
 
 Route::get('/work', function () {
-    return view('work');
+
+    $title3 = "Work With Us";
+    return view('work', compact('title3'));
 });
 
 Route::get('/join', function () {
-    return view('join');
+
+    $title4 = "Join Our Community";
+    return view('join', compact('title4'));
 });

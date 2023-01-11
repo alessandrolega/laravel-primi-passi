@@ -7,6 +7,6 @@
     <title>WorkwithUs</title>
 </head>
 <body>
-    <h1>Work With Us</h1>
+    <h1>{{$title3}}</h1>
 </body>
 </html>

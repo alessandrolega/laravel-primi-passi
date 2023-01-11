@@ -7,6 +7,6 @@
     <title>Join Our Community</title>
 </head>
 <body>
-    <h1>Join Our Community</h1>
+    <h1>{{$title4}}</h1>
 </body>
 </html>
